@@ -1,0 +1,383 @@
+<!DOCTYPE html> 
+<!--[if IE 8 ]><html class="ie" xmlns="http://www.w3.org/1999/xhtml" xml:lang="en-US" lang="en-US"> <![endif]--> 
+<!--[if (gte IE 9)|!(IE)]><!-->
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en-US" lang="en-US">
+    <!--<![endif]-->     
+    <head> 
+        <meta charset="utf-8"> 
+        <!--[if IE]><meta http-equiv='X-UA-Compatible' content='IE=edge,chrome=1'><![endif]-->         
+        <title>Secbase - automatisk bofkøring av sluttsedler.</title>         
+        <meta name="description" content="Secbase."> 
+        <meta name="keywords" content="accounting, askjer, sluttseddel, verdipapir, transaksjon, bokføring, regnskapsførsel, verdipapirer, sluttsedler"> 
+        <meta name="author" content="Secbase"> 
+        <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1"> 
+        <link rel="shortcut icon" href="images/favicon.png"> 
+        <link rel="apple-touch-icon" href="images/apple-touch-icon.png"> 
+        <link rel="apple-touch-icon" sizes="72x72" href="images/apple-touch-icon-72x72.png"> 
+        <link rel="apple-touch-icon" sizes="114x114" href="images/apple-touch-icon-114x114.png"> 
+        <!--[if lt IE 9]>
+		<script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+	<![endif]-->         
+        <!-- jQuery -->         
+        <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.2/jquery.min.js"></script>         
+        <!-- Fonts -->         
+        <link href='http://fonts.googleapis.com/css?family=Open+Sans:400,300' rel='stylesheet' type='text/css'> 
+        <!-- Stylesheets -->         
+        <link rel="stylesheet" type="text/css" href="stylesheets/loader.css"> 
+        <link rel="stylesheet" type="text/css" href="stylesheets/reset.css"> 
+        <link rel="stylesheet" type="text/css" href="stylesheets/grid.css"> 
+        <link rel="stylesheet" type="text/css" href="stylesheets/style.css"> 
+        <link rel="stylesheet" type="text/css" href="stylesheets/colors/ruby-red.css"> 
+        <!-- <link rel="stylesheet" type="text/css" href="stylesheets/colors/aqua-blue.css"> -->         
+        <!-- <link rel="stylesheet" type="text/css" href="stylesheets/colors/mint-green.css"> -->         
+        <!-- <link rel="stylesheet" type="text/css" href="stylesheets/colors/rose-pink.css"> -->         
+        <!-- <link rel="stylesheet" type="text/css" href="stylesheets/colors/sunflower-yellow.css"> -->         
+        <!-- <link rel="stylesheet" type="text/css" href="stylesheets/colors/jeans.css"> -->         
+        <!-- <link rel="stylesheet" type="text/css" href="stylesheets/colors/grape.css"> -->         
+        <!-- <link rel="stylesheet" type="text/css" href="stylesheets/colors/grass.css"> -->         
+        <!-- <link rel="stylesheet" type="text/css" href="stylesheets/colors/lavander.css"> -->         
+        <!-- <link rel="stylesheet" type="text/css" href="stylesheets/colors/gray.css"> -->         
+        <link rel="stylesheet" type="text/css" href="stylesheets/animations.css"> 
+        <!--[if lt IE 9]>
+		<link rel="stylesheet" type="text/css" href="stylesheets/ie.css" />
+	<![endif]-->         
+    </head>     
+    <body class="royal_loader"> 
+        <!-- Begin Navigation -->         
+        <nav class="clearfix"> 
+            <!-- Logo -->             
+            <div class="logo"> 
+                <a id="top" href="#">
+                    <img src="images/secbase_logo.png" width="190" height="31	" alt="S">
+                </a>                 
+            </div>             
+            <!-- Mobile Nav Button -->             
+            <button type="button" class="nav-button" data-toggle="collapse" data-target=".nav-content"> 
+                <span class="icon-bar"></span> 
+                <span class="icon-bar"></span> 
+                <span class="icon-bar"></span> 
+            </button>             
+            <!-- Navigation Links -->             
+            <div class="navigation"> 
+                <ul class="nav-content"> 
+                    <li>
+                        <a class="active" href="#section1">HJEM</a>
+                    </li>                     
+                    <li>
+                        <a href="#section2">Funksjoner</a>
+                    </li>                     
+                    <li>
+                        <a href="http://beta.secbase.no">Login</a>
+                    </li>                     
+                    <li>
+                        <a href="#section3">Om Secbase</a>
+                    </li>                     
+                    <li>
+                        <a href="#section5">KONTAKT</a>
+                    </li>                     
+                    <li data-pgc-define>
+                    </li>                     
+                </ul>                 
+            </div>             
+        </nav>         
+        <!-- End Navigation -->         
+        <!-- Begin Hero -->         
+        <section id="section1" class="parallax-bg1 hero parallax clearfix"> 
+            <!-- Content -->             
+            <div class="dark content container"> 
+                <!-- Headings -->                 
+                <div class="ticker"> 
+                    <h1>ALLE SLUTTSEDLER</h1> 
+                    <h1>BOKFØRT KORREKT</h1> 
+                    <h1>HELT AUTOMATISK.</h1> 
+                </div>                 
+                <!-- Buttons -->                 
+                <ul class="call-to-action"> 
+                    <li>
+                        <a class="button" id="betasignup"">BLI BETATESTER NÅ!</a>
+                    </li>                     
+                </ul>                 
+            </div>             
+        </section>         
+        <!-- End Hero -->         
+        <!-- Begin Services -->         
+        <section id="section2" class="parallax-bg2 parallax colored clearfix"> 
+            <div class="content dark padded container"> 
+                <!-- Text -->                 
+                <div class="title grid-full"> 
+                    <h2>KORT OM TJENESTEN</h2> 
+                    <span class="border"></span> 
+                    <p class="sub-heading">Secbase leser og sjekker av sluttseddel fra meglerhus mot gjeldende lover og skatteregler. Alle debet og kredit transaksjoner bokføres så korrekt og direkte inn i regnskapet.</p> 
+                </div>                 
+                <!-- Icons -->                 
+                <ul class="icons clearfix"> 
+                    <!-- Single Icon -->                     
+                    <li class="overview animated entrance" data-appear-bottom-offset="100"> 
+                        <!-- Feature List -->                         
+                        <div class="tooltip"> 
+                            <ul class="feature-list"> 
+                                <li>
+                                    <span class="list-dot"></span>Auto avsjekk sluttsedel 
+                                </li>                                 
+                                <li>
+                                    <span class="list-dot"></span>Bokføres korrekt
+                                </li>                                 
+                            </ul>                             
+                        </div>                         
+                        <span class="arrow-down"></span> 
+                        <!-- Icon -->                         
+                        <div class="icon ux"></div>                         
+                        <!-- Title -->                         
+                        <h4>BOKFØRER AUTOMATISK</h4> 
+                    </li>                     
+                    <!-- Single Icon -->                     
+                    <li class="overview animated entrance" data-appear-bottom-offset="100"> 
+                        <!-- Feature List -->                         
+                        <div class="tooltip"> 
+                            <ul class="feature-list"> 
+                                <li>
+                                    <span class="list-dot"></span>Heldigital jobbflyt
+                                </li>                                 
+                                <li>
+                                    <span class="list-dot"></span>Forenklet prosess
+                                </li>                                 
+                            </ul>                             
+                        </div>                         
+                        <span class="arrow-down"></span> 
+                        <!-- Icon -->                         
+                        <div class="icon design"></div>                         
+                        <!-- Title -->                         
+                        <h4>Reduserer<br>tidsbruk</h4> 
+                    </li>                     
+                    <!-- Single Icon -->                     
+                    <li class="overview animated entrance" data-appear-bottom-offset="100"> 
+                        <!-- Feature List -->                         
+                        <div class="tooltip"> 
+                            <ul class="feature-list"> 
+                                <li>
+                                    <span class="list-dot"></span>Frigir ressurser
+                                </li>                                 
+                                <li>
+                                    <span class="list-dot"></span>Reduserer kostnader
+                                </li>                                 
+                            </ul>                             
+                        </div>                         
+                        <span class="arrow-down"></span> 
+                        <!-- Icon -->                         
+                        <div class="icon seo"></div>                         
+                        <!-- Title -->                         
+                        <h4>ØKER <br> INNTJENING</h4> 
+                    </li>                     
+                    <!-- Single Icon -->                     
+                    <li class="overview animated entrance" data-appear-bottom-offset="100"> 
+                        <!-- Feature List -->                         
+                        <div class="tooltip"> 
+                            <ul class="feature-list"> 
+                                <li>
+                                    <span class="list-dot"></span>Ingen manuelle operasjoner
+                                </li>                                 
+                                <li>
+                                    <span class="list-dot"></span>Automatisk avsjekk lovverk
+                                </li>                                 
+                            </ul>                             
+                        </div>                         
+                        <span class="arrow-down"></span> 
+                        <!-- Icon -->                         
+                        <div class="icon social"></div>                         
+                        <!-- Title -->                         
+                        <h4>Minimerer risiko for feil</h4> 
+                    </li>                     
+                    <!-- Single Icon -->                     
+                    <li class="overview animated entrance" data-appear-bottom-offset="100"> 
+                        <!-- Feature List -->                         
+                        <div class="tooltip"> 
+                            <ul class="feature-list"> 
+                                <li>
+                                    <span class="list-dot"></span>Auto avsjekk skatteregler
+                                </li>                                 
+                                <li>
+                                    <span class="list-dot"></span>Auto avsjekk fritaksmetoden
+                                </li>                                 
+                                <li>
+                                    <span class="list-dot"></span>Alltid oppdatert
+                                </li>                                 
+                            </ul>                             
+                        </div>                         
+                        <span class="arrow-down"></span> 
+                        <!-- Icon -->                         
+                        <div class="icon tech"></div>                         
+                        <!-- Title -->                         
+                        <h4>SIKRER KORREKT BESKATNING</h4> 
+                    </li>                     
+                    <!-- Single Icon -->                     
+                    <li class="overview animated entrance" data-appear-bottom-offset="100"> 
+                        <!-- Feature Lis -->                         
+                        <div class="tooltip"> 
+                            <ul class="feature-list"> 
+                                <li>
+                                    <span class="list-dot"></span>Sporbarhet ihht lovkrav
+                                </li>                                 
+                                <li>
+                                    <span class="list-dot"></span>Kobler transaksjon til regnskap
+                                </li>                                 
+                            </ul>                             
+                        </div>                         
+                        <span class="arrow-down"></span> 
+                        <!-- Icon -->                         
+                        <div class="icon commerce"></div>                         
+                        <!-- Title -->                         
+                        <h4>FORENKLER<br>RAPPORTERING</h4> 
+                    </li>                     
+                </ul>                 
+            </div>             
+        </section>         
+        <!-- End Services -->
+                <!-- Begin About -->         
+        <section id="section3" class="content container"> 
+            <!-- Text -->             
+            <div class="title grid-full"> 
+                <h2>OM Secbase</h2> 
+                <span class="border"></span> 
+                <p class="sub-heading">Secbase revolusjonerer måten digitale sluttsedler fra meglerhus håndteres og bokføres. Vi tar nå inn et begrenset antall selskap som Betatestere. Som Betatester kan Secbase benyttes helt kostnadsfritt ut 2016.</p>
+            </div>             
+            <!-- Image -->             
+        </section>         
+        <!-- End About -->         
+         
+        <!-- Begin Portfolio -->         
+        <!-- End Portfolio -->         
+        <!-- Begin Team -->         
+        <section id="section5" class="content container"> 
+            <div class="title grid-full"> 
+                <h2>KONTAKT OSS</h2> 
+                <span class="border"></span> 
+                <p>
+                <p>Ta gjerne kontakt med oss på beta@staff.secbase.no om du vil ha mer informasjon om Secbase.</p> 
+            </div>             
+        </section>         
+        <br>
+        <!-- End Team -->         
+        <!-- begin clients --> 
+        <section class="parallax-bg3 parallax black clearfix" data-pg-id="8107"> 
+</section>         
+        <!-- End Clients -->         
+        <!-- Begin Footer -->         
+        <footer id="footer" class="clearfix"> 
+            <div class="content dark container"> 
+                <!-- Contact Links -->                 
+                <ul class="contact animated hatch clearfix"> 
+                    <li class="grid-2"> 
+                        <img src="images/icons/kalender.png" alt="kalender" width="30" height="30"> 
+                        <p>Kommersiell lansering i 2017.</p> 
+                    </li>                     
+                    <li class="grid-2"> 
+                        <!--id="contact-open" Contact open er en onClick event som åpner et skjema -->
+                        <a href="mailto:beta@staff.secbase.no" target="_top"> 
+                            <img src="images/icons/mail.png" alt="mail" width="30" height="30"> 
+                            <br> 
+                            beta@staff.secbase.no
+                        </a>                         
+                    </li>                     
+                    <li class="grid-2"> 
+                        <a href="https://goo.gl/maps/Dda81wzpiEM2" target="_blank"> 
+                            <img src="images/icons/location.png" alt="location" width="30" height="30"> 
+                            <br> 
+                            Nagelgården 6,
+                            5004 Bergen, Norge.
+                        </a>                         
+                    </li>                     
+                </ul>                 
+            </div>             
+            <!-- Contact Form -->             
+            <div id="contact-form" class="dark clearfix"> 
+                <div class="container"> 
+                    <div class="contact-heading grid-full"> 
+                        <h3>Ta kontakt</h3> 
+                        <span class="border"></span> 
+                    </div>                     
+                </div>                 
+                <form method="post" action="post.php" name="contactform" id="contactform" class="container"> 
+                    <fieldset> 
+                        <div class="form-field grid-half"> 
+                            <label for="name">Navn</label>                             
+                            <span><input type="text" name="name" id="name" /></span> 
+                        </div>                         
+                        <div class="form-field grid-half"> 
+                            <label for="email">E-post</label>                             
+                            <span><input type="email" name="email" id="email" /></span> 
+                        </div>                         
+                        <div class="form-field grid-full"> 
+                            <label for="message">Melding</label>                             
+                            <span><textarea name="message" id="message"></textarea></span> 
+                        </div>                         
+                    </fieldset>                     
+                    <div class="form-click grid-full"> 
+                        <span><input type="submit" name="submit" value="Send" id="message" /></span> 
+                    </div>                     
+                    <div id="alert" class="grid-full"></div>                     
+                </form>                 
+            </div>             
+            <div class="container"> 
+                <!-- Social Links -->                 
+                <ul class="social-links grid-full"> 
+                    <li>
+                        <a href="http://facebook.com" target="_blank">
+                            <img src="images/icons/facebook-large.png" alt="facebook" width="36" height="36">
+                            <li>
+                                <a href="http://twitter.com" target="_blank">
+                                    <img src="images/icons/twitter-large.png" alt="twitter" width="36" height="36">
+                                </a>
+                            </li>                             
+                            <!-- Copyright Info -->                             
+                            <div class="copyright grid-full">
+                                <h6>©2016 Secbase. Alle rettigheter reservert.</h6>
+                                <!-- End Footer -->                                 
+                                <!-- Javascript -->                                 
+                                <script src="javascript/royal-preloader.js" type="text/javascript" charset="utf-8"></script>                                 
+                                <script type="text/javascript">
+
+		//image's paths
+	   var images = {
+	        'parallax1':    'http://substans.no/images/parallax-bg1.jpg',
+	        'parallax2':    'http://substans.no/images/parallax-bg2.jpg',
+
+	    };
+	 
+	    // config
+	    Royal_Preloader.config({
+	        mode:       'number',
+	        images:     images,
+	        timeout:    10,
+	        showInfo:   false,
+	        background: ['#ffffff']
+	    });
+	</script>                                 
+                                <script src="javascript/retina.js" type="text/javascript" charset="utf-8"></script>                                 
+                                <script src="javascript/smoothscroll.js" type="text/javascript" charset="utf-8"></script>                                 
+                                <script src="javascript/waypoints.js" type="text/javascript" charset="utf-8"></script>                                 
+                                <script src="javascript/parallax.js" type="text/javascript" charset="utf-8"></script>                                 
+                                <script src="javascript/navigation.js" type="text/javascript" charset="utf-8"></script>                                 
+                                <script src="javascript/jquery.mixitup.js" type="text/javascript" charset="utf-8"></script>                                 
+                                <script src="javascript/jquery.easing.js" type="text/javascript" charset="utf-8"></script>                                 
+                                <script src="javascript/jquery.fittext.js" type="text/javascript" charset="utf-8"></script>                                 
+                                <script src="javascript/jquery.localscroll.js" type="text/javascript" charset="utf-8"></script>                                 
+                                <script src="javascript/jquery.scrollto.js" type="text/javascript" charset="utf-8"></script>                                 
+                                <script src="javascript/jquery.appear.js" type="text/javascript" charset="utf-8"></script>                                 
+                                <script src="javascript/jquery.waitforimages.js" type="text/javascript" charset="utf-8"></script>                                 
+                                <script src="javascript/jquery.bxslider.js" type="text/javascript" charset="utf-8"></script>                                 
+                                <script src="javascript/jquery.fitvids.js" type="text/javascript" charset="utf-8"></script>                                 
+                                <script src="javascript/main.js" type="text/javascript" charset="utf-8"></script>                                 
+                                <script src="javascript/shortcodes.js" type="text/javascript" charset="utf-8"></script>
+
+                                <script type="text/javascript" src="http://s3.amazonaws.com/downloads.mailchimp.com/js/signup-forms/popup/embed.js" data-dojo-config="usePlainJson: true, isDebug: false"></script>
+
+								<script>
+								function showMailingPopUp() {
+								   	  require(["mojo/signup-forms/Loader"], function(L) { L.start({"baseUrl":"mc.us14.list-manage.com","uuid":"facd2c62123c5d7cc3ecec285","lid":"60b108d29b"}) })
+								    document.cookie = "MCEvilPopupClosed=; expires=Thu, 01 Jan 1970 00:00:00 UTC";
+								};
+
+								document.getElementById("betasignup").onclick = function() {showMailingPopUp()};
+								</script>                                 
+    </body>     
+</html>
