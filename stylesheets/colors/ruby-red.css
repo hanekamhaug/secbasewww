@@ -19,9 +19,19 @@ a:hover
     border: 1px solid #ee3b16;
 }
 
+.navbutton
+{
+    border: 1px solid #009ed0;
+}
+
 .button:hover
 {
     border: 1px solid #ffa593;
+}
+
+.navbutton:hover
+{
+    border: 1px solid #333333;
 }
 
 .desktop.navigation .nav-content a:hover, .desktop.navigation .nav-content a.active, .post-title a:hover, .cat-item a:hover, .widget-archive a:hover, .recentcomments a:hover, .widget-recent-entries a:hover, .comment-meta a:hover, .required
