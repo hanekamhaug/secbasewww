@@ -173,10 +173,23 @@ a, a:visited
     -moz-border-radius: 3px;
 }
 
+.betabutton
+{
+    display: inline-block;
+    padding: 20px 55px;
+    font-size: 1em;
+    text-transform: uppercase;
+    letter-spacing: 0.20em;
+    font-weight: 400;
+    border-radius: 3px;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+}
+
 .navbutton
 {
     display: inline-block;
-    padding: 5px 20px;
+    padding: 1px 20px;
     font-size: 1em;
     text-transform: uppercase;
     letter-spacing: 0.20em;
