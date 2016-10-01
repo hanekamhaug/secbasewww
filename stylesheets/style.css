@@ -354,7 +354,7 @@ nav
     display: block!important;
 /*    width: 55%; */
     margin-right: 5%;
-    float: left;
+    float: right;
 }
 
 .desktop.navigation .nav-content
