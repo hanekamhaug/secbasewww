@@ -352,7 +352,7 @@ nav
 .desktop.navigation
 {
     display: block!important;
-    width: 55%;
+/*    width: 55%; */
     margin-right: 5%;
     float: left;
 }
